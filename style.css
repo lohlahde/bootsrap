@@ -1,0 +1,65 @@
+body{
+	font-family: 'IM Fell Double Pica', serif;
+	font-family: 'Prompt', sans-serif;
+	font-family: 'Ruda', sans-serif;
+}
+.navbar-section{
+	background: linear-gradient(45deg, paleturquoise, darkblue);
+}
+.logo{
+	width: 50px;
+}
+.hero{
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+}
+.hero-overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.about-info{
+	display: grid;
+	grid-template-columns: 120px 20px auto;
+	gap: 15px 0;
+}
+.about-icon{
+	color: paleturquoise;
+	text-align: center;
+	margin: 30px;
+}
+.about-icon:hover{
+	color: gold;
+}
+.skill-box{
+	width: 150px;
+	height: 150px;
+
+}
+.services{
+	background: linear-gradient(45deg, paleturquoise, purple);
+}
+.service-card{
+	max-width: 350px;
+	border-radius: 10px !important;
+}
+
+.work-box{
+	width: 85%;
+	height: 300px;
+	box-sizing: border-box;
+	margin: 0 auto 50px auto;
+	background-color: white;
+	justify-content: center;
+
+}
+.contact-section{
+	background:paleturquoise;
+}
+
+.contact-input{
+	height: 50px;
+	margin-bottom: 20px;
+}
+.contact-icon{
+	color: paleturquoise;
+}

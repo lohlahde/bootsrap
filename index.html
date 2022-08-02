@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+
+<!-- external css -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<!--fontawesome  -->
+<link rel="stylesheet" type="text/css" href="fontawesome-free-6.0.0-web/css/all.css">
+
+<!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-section">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+    	<img class="logo" src="./images/logolahdeh.png">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-warning" href="#">Home</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-warning" href="#">About</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-warning" href="#">Services</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-warning" href="#">Portfolio</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-warning" href="#">Contact</a>
+        </li>
+
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- HERO BOX -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div style="background-image:url(./images/moi44.jpg);" class="hero w-100 position-relative">
+        <div class="hero-overlay d-flex position-absolute w-100 h-100 align-items-center">
+          <div class="container">
+            <div class="text-white text-capitalize ">
+              <h2>hello! <br> i'm a front end developer</h2>
+              <h1><small>my name is</small> <br> ololade folami
+              </h1>
+
+            </div>
+            <a class="btn btn-info" href="#">Contact Me</a>
+            <a class="btn btn-warning" href="#">Download CV</a>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <div style="background-image:url(./images/moi66.jpg);" class="hero w-100 position-relative">
+        <div class="hero-overlay d-flex position-absolute w-100 h-100 align-items-center">
+          <div class="container">
+            <div class="text-white text-capitalize">
+              <h2>hello! <br>i'm a front end developer</h2>
+              <h1> <small>my name is</small> <br>
+                ololade folami
+                
+              </h1>
+            </div>
+            <a class="btn btn-info" href="#">Contact Me</a>
+            <a class="btn btn-warning" href="#">Download CV</a>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+     
+    </div>
+    <div class="carousel-item">
+      <div style="background-image:url(./images/moi11.jpg);" class="hero w-100 position-relative">
+        <div class="hero-overlay d-flex position-absolute w-100 h-100 align-items-center">
+          <div class="container">
+            <div class="text-white text-capitalize">
+              <h2>hello! <br> i'm a front end developer </h2>
+              <h1> <small> my name is</small> <br>
+                ololade folami
+                
+              </h1>
+              
+            </div>
+            <a class="btn btn-info" href="#">Contact Me</a>
+            <a class="btn btn-warning" href="#">Download CV</a>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> -->
+</div>
+
+<!--ABOUT SECTION -->
+
+<section class="w-100 pt-5 pb-5 bg-light">
+  <div class="container">
+        <header class="text-center mb-3" >
+          <h2>About Me</h2>
+        </header>
+
+<!-- gy-lg-0 gy-5 responsiveness ....to give gap between info and the boxes on smaller devices but no changes on larger devices-->
+<!-- to align the info with the boxes,side by side... align-items-center can be used -->
+
+      <div class="row gy-lg-0 gy-5 align-items-center">
+        <div class="col-lg">
+    
+         <div>
+            <p> We are Lahdeh, our strategies will help you set an objective and choose your tools,
+            developing a plan that is custom built for your business. We make sure to provide unlimited collection of options, element and creative shortcode lists.
+            All whole elements can be easily styled, edited and modified in little easy steps to save your time!
+            </p>
+
+            <div class="about-info">
+
+              <div class="fw-bold">Full Name</div>
+              <div class="fw-bold">:</div>
+              <div>Ololade Folami</div>
+
+              <div class="fw-bold">Age</div>
+              <div class="fw-bold">:</div>
+              <div>30</div>
+
+              <div class="fw-bold">Address</div>
+              <div class="fw-bold">:</div>
+              <div>Lagos, Nigeria</div>
+
+              <div class="fw-bold">Phone No</div>
+              <div class="fw-bold">:</div>
+              <div>+2347089070853</div>
+
+              <div class="fw-bold">Email</div>
+              <div class="fw-bold">:</div>
+              <div>folamiajose@gmail.com</div>
+       
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="row row-cols-lg-3 row-cols-2 gy-2">
+            <div class="col">
+                <!-- mx-auto to center the box -->
+
+              <div class="skill-box border border-warning mx-auto"><i class="fa-brands about-icon fa-php fa-5x"></i></div>
+              <div class="text-center mt-2">PHP CODE</div>
+            </div>
+
+            <div class="col">
+              <div class="skill-box border border-warning mx-auto"><i class="fa-solid about-icon fa-desktop fa-4x"></i></div>
+              <div class="text-center mt-2">FRONTEND</div>
+            </div>
+
+            <div class="col">
+              <div class="skill-box border border-warning mx-auto"><i class="fa-solid about-icon fa-paintbrush fa-4x"></i></div>
+              <div class="text-center mt-2">WEBDESIGN</div>
+            </div>
+
+            <div class="col">
+              <div class="skill-box border border-warning mx-auto"><i class="fa-brands about-icon fa-html5 fa-4x"></i></div>
+              <div class="text-center mt-2">HTML5</div>
+            </div>
+
+            <div class="col">
+              <div class="skill-box border border-warning mx-auto"><i class="fa-brands about-icon fa-css3 fa-4x"></i></div>
+              <div class="text-center mt-2">CSS3</div>
+            </div>
+
+            <div class="col">
+              <div class="skill-box border border-warning mx-auto"><i class="fa-brands about-icon fa-wordpress fa-4x"></i></div>
+              <div class="text-center mt-2">WORDPRESS</div>
+            </div>
+            
+          </div>
+          
+        </div>
+
+      </div>
+
+    
+  </div>
+
+</section>
+
+
+
+
+<!-- Service Section -->
+<!-- py-5 is same as pt and pb...ie padding on y axis -->
+
+
+<section class="bg-info py-5 services">
+  <div class="container">
+    <header class="row justify-content-center mb-3">
+
+      <div class="col-lg-7 col-12 text-center">
+        <h2>My services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </header>
+      <!-- gap gy-4 given for responsiveness on other devices -->
+
+    <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 gy-4">
+
+      <div class="col">
+        <div class="card service-card border-0 shadow">
+        <div class="card-body text-center">
+              <i class="fa-solid service-icon fa-laptop-code fa-3x text-primary"></i>
+              <h3 class="my-3">Web Design</h3>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card service-card border-0 shadow">
+         <div class="card-body text-center"><i class="fa-solid service-icon fa-bezier-curve fa-3x text-primary"></i>
+              <h3 class="my-3">Graphic Design</h3>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+         </div>
+       </div>
+      </div>
+
+      <div class="col">
+        <div class="card service-card border-0 shadow">
+         <div class="card-body text-center"><i class="fa-solid service-icon fa-bezier-curve fa-3x text-primary"></i>
+              <h3 class="my-3">App Design</h3>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+          </div>
+       </div>
+      </div>
+
+      <div class="col">
+        <div class="card service-card border-0 shadow">
+          <div class="card-body text-center"><i class="fa-solid service-icon fa-bezier-curve fa-3x text-primary"></i>
+              <h3 class="my-3">Illustration Design</h3>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+          
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card service-card border-0 shadow">
+          <div class="card-body text-center"><i class="fa-solid service-icon fa-bezier-curve fa-3x text-primary"></i>
+              <h3 class="my-3">Web Developement</h3>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card service-card border-0 shadow">
+          <div class="card-body text-center"><i class="fa-solid service-icon fa-bezier-curve fa-3x text-primary"></i>
+              <h3>Consultancy and Support</h3>
+              <p>Curabitur vitae magna felis. Nulla ac libero ornare, vestibulum lacus quis blandit enimdicta sunt.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+  
+</section>
+
+
+<!-- Recent Work -->
+<section class="w-100 pt-5 pb-5 bg-light">
+  <div class="container">
+    <header>
+      <h2>My Recent Work</h2>
+      <p>Nunc id dui at sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis, urna est ultricies eros, ac porta sem turpis quis leo.</p>
+    </header>
+    <div class="row">
+      <div class="col-lg p-3 ms-5 text-center">
+       <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+          <div class="col">
+            <div class="work-box" style="background-image: url(./images/car.jpg);"></div>
+          </div>
+
+          <div class="col">
+            <div class="work-box" style="background-image: url(./images/corn.jpg);"></div>
+          </div>
+
+          <div class="col">
+            <div class="work-box" style="background-image: url(./images/flower.jpg);"></div>
+          </div>
+
+          <div class="col">
+           <div class="work-box" style="background-image: url(./images/robot.jpg);"></div>
+          </div>
+           
+          <div class="col">
+           <div class="work-box" style="background-image: url(./images/toy.jpg);"></div>
+          </div>
+
+          <div class="col">
+            <div class="work-box" style="background-image: url(./images/toyy.jpg);"></div>
+          </div>
+          
+        </div>
+
+         <div>
+            <a class="btn btn-info text-center" href="">MORE WORKS</a>
+          </div>
+        
+      </div>
+    </div>
+
+
+  </div>
+  
+</section>
+
+
+
+
+
+    <!-- contact  section -->
+
+    <section class="py-5 contact-section">
+      <div class="container">
+        <header class="row justify-content-center text-center">
+          <div class="col-lg-7 col-12">
+            <h2> Get In Touch</h2>
+            <p>
+              ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          
+        </header>
+        
+        <div class="row justify-content-evenly mt-5">
+          <div class="col-3">
+            <div class="card w-100 contact-card text-center">
+              <div class="card-body">
+                <i class="fa-solid contact-icon fa-location-dot fa-4x"></i>
+                <h4>Address</h4>
+                <p>123 Street New York City , United States Of America 750</p>
+              </div>
+            </div> 
+          </div>
+              
+          <div class="col-lg-3">
+            <div class="card w-100 contact-card text-center">
+              <div class="card-body">
+                   <i class="fa-solid contact-icon fa-phone fa-3x"></i>
+                   <h4>Phone</h4>
+                   <p>+931 2222 5555 <br> +547 5554 6663</p>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3">
+            <div class="card w-100 contact-card text-center">
+              <div class="card-body">
+                <i class="fa-solid contact-icon fa-envelope fa-4x"></i>
+                <h4>Email</h4>
+                <p>folamiajose@gmail.com <br> info@helpline.com</p>
+              </div>
+              
+            </div>
+
+          </div>
+
+          <div class="row  mt-lg-5 mt-0 justify-content-evenly gy-lg-0 gy-5">
+                <div class="col-lg-5">
+                  <form action="">
+                    <label>Full Name</label>
+                    <input class="w-100 contact-input rounded border" type="text" name="">
+                    <label>Email Address</label>
+                    <input class="w-100 contact-input rounded border " type="email" name="">
+                    <label>Message</label>
+                    <textarea class="w-100 contact-input rounded border "></textarea>
+                    <button class="btn btn-outline-warning"> Send Message</button>
+                  </form>
+                  
+                </div>
+
+                <div class="col-5">
+                  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=35%20Adebisi street,%20Yaba%20Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">html google map embed</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:500px;}</style></div></div>
+                </div>
+                
+              
+            </div>
+
+        </div>
+            <a class="btn btn-info p-2 text-center" href="#">SEND MESSAGE</a>
+
+      </div>
+      
+    </section>
+  
+
+
+
+
+
+<!-- Media Section -->
+
+<section class="w-100 py-5 bg-secondary text-center">
+  <div class="container">
+    <footer>
+      <h2>Unfold</h2>
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- recitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+    </footer>
+    <div class="row row-cols-4">
+      <div class="col-lg">
+        <div class="p-5 m-5  rounded-circle">
+         <a href="#"><i class="fa-brands media-icon fa-facebook fa-3x"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg">
+        <div class="p-5 m-5  rounded-circle"><a href="#"><i class="fa-brands media-icon fa-twitter fa-3x"></i></a></div>
+      </div>
+      <div class="col-lg">
+        <div class="p-5 m-5  rounded-circle"><a href="#"><i class="fa-brands media-icon fa-pinterest fa-3x"></i></a></div>
+      </div>
+      <div class="col-lg">
+       <div class="p-5 m-5  rounded-circle"><a href="#"><i class="fa-brands media-icon fa-linkedin fa-3x"></i></a></div>
+      </div>
+    </div>
+    
+  </div>
+  
+</section>
+
+<footer class="w-100 py-5 bg-dark text-white">
+  <center>Copyright &copy 2022. All rights reserved by Ololade Folami</center>
+</footer>
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bootstrap js -->
+<script src="bootstrap-5.1.3-dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+</html>
